@@ -20,7 +20,7 @@
 	   
 	   <table width="75%" border="0"><tr><td width="180">
 	   	
-	   	<table border=1 width="40%" cellpadding="4"><tr><td width="90%" align="center" <?php echo ($drawmode=="automatic")?'background="images/drawball.gif"':''; ?>>
+	   	<table border="1" width="40%" cellpadding="4"><tr><td width="90%" align="center" <?php echo ($drawmode=="automatic")?'background="images/drawball.gif"':''; ?>>
 	   	<?php 
 	   		echo '<input type="hidden" name="letters" value="'.$bingoletters[0].$bingoletters[1].$bingoletters[2].$bingoletters[3].$bingoletters[4].'">';	
 	   		if (isset($_POST["gimme"]) && $drawmode=="automatic") echo '<br /><font size=6 color="#000000"><b>'.random_number($numberinplay).'</b></font><br />';

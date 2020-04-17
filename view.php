@@ -79,8 +79,12 @@
 <body>
 <section class="container">
   <div class="left-half">
-    <article><div id="serverdata"></div>
-      </article>
+    <article>
+        <div id="numberdata"></div>
+    </article>
+    <article>
+        <div id="serverdata"></div>
+    </article>      
     </div>
   <div class="right-half">
     <article>
