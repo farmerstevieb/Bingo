@@ -1,9 +1,11 @@
+<!doctype html>
 <?php 
 include_once("include/functions.php");
 
 ?>
 <html>
 <head>
+<meta charset="utf-8">
 <title>Interactive Bingo Card</title>
 
 <script language="JavaScript" src="include/scripts.js">
