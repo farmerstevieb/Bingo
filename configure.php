@@ -14,7 +14,7 @@
 	   			if (isset($_POST["printrulesform"])) $printrulesform = $_POST["printrulesform"]; else  $printrulesform ="";
 	   			if (isset($_POST["fourperpageform"])) $fourperpageform = $_POST["fourperpageform"]; else $fourperpageform ="";
 	
-				//echo "debug: ".$_POST["mainbgcolorform"]."<br>";
+				//echo "debug: ".$_POST["mainbgcolorform"]."<br />";
 		   		if (isset($_POST["headerfontcolorform"])) $headerfontcolorform = $_POST["headerfontcolorform"]; else $headerfontcolorform ="";
 		   		if (isset($_POST["headerbgcolorform"])) $headerbgcolorform = $_POST["headerbgcolorform"]; else $headerbgcolorform ="";
 		   		if (isset($_POST["mainfontcolorform"])) $mainfontcolorform = $_POST["mainfontcolorform"]; else $mainfontcolorform ="";
@@ -23,7 +23,7 @@
 		   		if (isset($_POST["selectedbgcolorform"])) $selectedbgcolorform = $_POST["selectedbgcolorform"]; else $selectedbgcolorform ="";
 		   		if (isset($_POST["bordercolorform"])) $bordercolorform = $_POST["bordercolorform"]; else $bordercolorform ="";
 		   		
-		   		//echo "debug: ".$headerfontcolorform."<br>";
+		   		//echo "debug: ".$headerfontcolorform."<br />";
 
 				if (isset($_POST["winningpatternform0"])) $winningpatternform0 = $_POST["winningpatternform0"]; else  $winningpatternform0 ="";
 				if (isset($_POST["winningpatternform1"])) $winningpatternform1 = $_POST["winningpatternform1"]; else  $winningpatternform1 ="";
@@ -123,10 +123,10 @@
 	   <p><img src="images/cf.gif"></p>
 	   <form name="configForm" action="index.php?action=config<?php echo ((isset($_GET['numberinplay']))?('&numberinplay='.$_GET['numberinplay']):''); ?>" method="post" onSubmit="return ConfigConfirmation()">
 	   Enter the Set ID: 
-	   &nbsp;&nbsp;&nbsp;<input type="text" name="setidform" value="<?php echo $setid; ?>" maxlength="10" size="4" align="right">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Set ID')">help?</a><br>
-	   <br><table border="1"><tr><td>
+	   &nbsp;&nbsp;&nbsp;<input type="text" name="setidform" value="<?php echo $setid; ?>" maxlength="10" size="4" align="right">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Set ID')">help?</a><br />
+	   <br /><table border="1"><tr><td>
 		   <table border="0"><tr><td colspan="2">
-		   Choose the Winning Patterns: &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Winning Pattern')">help?</a><br><br></td></tr>
+		   Choose the Winning Patterns: &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Winning Pattern')">help?</a><br /><br /></td></tr>
 		   <tr><td width="400" colspan="2">
 		   	<input type="checkbox" name="winningpatternform0" <?php echo ($winningpattern0=="on")?"checked":""; ?>>
 		   	&nbsp;&nbsp;&nbsp;<?php echo $patternkeywords[0];?> (any row, column or diagonal)
@@ -196,8 +196,8 @@
 	   
 	   </table>
 	   </td></tr></table>
-		<br>		
-		<br>
+		<br />		
+		<br />
 		<table border="1" width="30%"><tr><td><table border="0"> 
 			<tr>
 				<td>Draw Mode: &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Draw Mode')">help?</a>
@@ -214,7 +214,7 @@
 				</td>
 			</tr></table>
 			</tr></table>
-		<br>
+		<br />
 		<table border="1" width="30%"><tr><td><table border="0"> 
 			<tr>
 				<td>Miscellaneous Options: 
@@ -233,7 +233,7 @@
 		   	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Four per page')">help?</a>
 		   </td></tr></table>
 			</tr></table>
-		<br>
+		<br />
 	   	<table border="1" width="30%">
 	   		<tr>
 	   			<td>
@@ -321,19 +321,19 @@
 				</td>
 			</tr>
 		</table>												
-		<br>
-	   <br>Page Title: <input type="text" name="pagetitleform" value="<?php echo $pagetitleconfig; ?>" size="55"><br>
+		<br />
+	   <br />Page Title: <input type="text" name="pagetitleform" value="<?php echo $pagetitleconfig; ?>" size="55"><br />
 	   
-	   <br>When viewing one card (HTML codes allowed):&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Hint')">hint?</a><br><br>
-	   Header: <input type="text" name="viewheaderform" value='<?php echo $viewheader; ?>' size="55"><br>
-	   Footer: <input type="text" name="viewfooterform" value='<?php echo $viewfooter; ?>' size="55"><br><br>
-	   When printing four card per page (HTML codes allowed):<br><br>
-	   Header: <input type="text" name="printheaderform" value='<?php echo $printheader; ?>' size="55"><br>
-	   Footer: <input type="text" name="printfooterform" value='<?php echo $printfooter; ?>' size="55"><br>
-		<br>
+	   <br />When viewing one card (HTML codes allowed):&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:explain('Hint')">hint?</a><br /><br />
+	   Header: <input type="text" name="viewheaderform" value='<?php echo $viewheader; ?>' size="55"><br />
+	   Footer: <input type="text" name="viewfooterform" value='<?php echo $viewfooter; ?>' size="55"><br /><br />
+	   When printing four card per page (HTML codes allowed):<br /><br />
+	   Header: <input type="text" name="printheaderform" value='<?php echo $printheader; ?>' size="55"><br />
+	   Footer: <input type="text" name="printfooterform" value='<?php echo $printfooter; ?>' size="55"><br />
+		<br />
 
 		
-	   &nbsp;&nbsp;&nbsp;<br><input type="submit" value="Change!" name="submit">
+	   &nbsp;&nbsp;&nbsp;<br /><input type="submit" value="Change!" name="submit">
 	   
 	   </form>
 	   

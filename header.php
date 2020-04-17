@@ -8,7 +8,7 @@
 </script>
 </head>
 <body bgcolor="#003399" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
-<br>
+<br />
 <table width="85%" border="0" cellpadding="5">
   <tr>
     <td width="100%"> 
@@ -20,7 +20,7 @@
       </font></b></td>
   </tr>
 </table>
-<br>
+<br />
 <hr width="85%">
 
 

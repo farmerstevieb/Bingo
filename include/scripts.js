@@ -210,33 +210,33 @@ function explain(item) {
 	
 	if (item=="Set ID") { 
 		msg = "The set ID is a unique identifier given to your set of cards. " +
-		" The set ID will always prefix the card numbers when displayed on screen or printed out.<br><br>"+
+		" The set ID will always prefix the card numbers when displayed on screen or printed out.<br /><br />"+
 		" You can have several sets of cards saved on the computer, which will remain untouched, simply" +
 		" by changing the set ID (in config mode) to a different letter or word.  For example, if you generate  "+
 		" a set 'A' of 10 cards, the cards will be numbered A0001-A0010.  Once set 'A' is generated, you can change "+
 		" the set ID to 'Freddy-' and generate a new set of 20 cards (numbered Freddy-0001 to Freddy-0020).  The "+
-		" original set remains untouched.<br><br> This feature is very useful if you want to personalize several sets " +
-		" of cards.  It also allows you to reload a previously generated set of cards.<br><br>"+
+		" original set remains untouched.<br /><br /> This feature is very useful if you want to personalize several sets " +
+		" of cards.  It also allows you to reload a previously generated set of cards.<br /><br />"+
 		" Only alphanumerical characters, or hyphens, will be retained for your set ID. Leaving the field blank will return to " +
 		" the default letter A.";
 		height=540;
 	} else if (item=="Winning Pattern") { 
-		msg = "The winning pattern tells Bingoware what you want the winning cards to look like.<br><br> " +
+		msg = "The winning pattern tells Bingoware what you want the winning cards to look like.<br /><br /> " +
 		" Bingoware lets you choose from 11 different styles of winning patterns, and lets you customize "+
-		" 10 of them.  Of course, we have given you the normal winning pattern which most people will use.<br><br> " +
+		" 10 of them.  Of course, we have given you the normal winning pattern which most people will use.<br /><br /> " +
 		" In the normal winning pattern, any row, column or diagonal wins! " +
 		" The names given to the other winning patterns don't actually mean much, since you can customize " +
-		" any of them the way you like.<br><br>"+
+		" any of them the way you like.<br /><br />"+
 		" To customize a winning pattern, simply click on the customize link beside the winning pattern you " +
-		" want to change, a window will pop up and let you color which squares you want the winning card to have. <br><br>" + 
+		" want to change, a window will pop up and let you color which squares you want the winning card to have. <br /><br />" + 
 		" Have fun! Make your Bingo special!";
 		height=530;
 	} else if (item=="Draw Mode") { 
 		msg = "Most users will use the automatic draw mode, which means that Bingoware will " +
-		" draw the numbers for you.<br><br>"+
+		" draw the numbers for you.<br /><br />"+
 		" However, some users may already have a random number generating mechanism they would like" +
 		" to keep using, such as a barrel with numbered balls.  Bingoware will let you enter the"+
-		" numbers that were drawn and still perform the card validation for you. <br><br>"+
+		" numbers that were drawn and still perform the card validation for you. <br /><br />"+
 		" The manual mode will ask you the numbers instead of giving you the numbers.  Note that"+
 		" Bingoware thoroughly checks the number you enter so that no mistakes are made!";
 		height=430;
@@ -244,13 +244,13 @@ function explain(item) {
 		msg = "In game mode, the software will open the current set of cards (as indicated" +
 		" by the setid variable in the config mode).  If you do not distribute all the cards you generated," +
 		" because for instance you did not get the crowd you expected or are charging to much for you cards," +
-		" then you can tell Bingoware not to consider all the cards.  <br><br>The trick is to issue out your cards in"+ 
+		" then you can tell Bingoware not to consider all the cards.  <br /><br />The trick is to issue out your cards in"+ 
 		" sequential order, and enter the number of the last card given away in the box.  You can"+
 		" always change the number throughout the game if you gain or lose some people.  Bingoware will simply" +
 		" not announce winning cards numbers that are still in your hands.";
 		height=450;	
 	} else if (item=="Hint") { 
-		msg = "You can easily add a link to close the window in the header or footer, by inserting this line here: <br>" +
+		msg = "You can easily add a link to close the window in the header or footer, by inserting this line here: <br />" +
 		" <pre>&lt;br&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;javascript:window.close();&quot;&gt;close window&lt;/a&gt;&lt;/p&gt;</pre>";
 		height=250;
 		width=600;
@@ -295,8 +295,8 @@ function explain(item) {
 		open();
 		write('<html>');
 		write('<head><title>Help on '+item+'</title></head>');
-		write('<body><h1>' + item + ':</h1><br>'+ msg + '<br>');
-		write('<br><p align="center"><a href="javascript:close()">close</a>');
+		write('<body><h1>' + item + ':</h1><br />'+ msg + '<br />');
+		write('<br /><p align="center"><a href="javascript:close()">close</a>');
 		write('</body></html>');
 		close();
 	}

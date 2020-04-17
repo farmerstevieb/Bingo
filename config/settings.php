@@ -107,7 +107,7 @@ $viewheader='<center><b><font size="+4">Maenclochog Village</font></b></center>'
 * You should ensure to close your HTML tags so you do not disrupt the display
 * of the cards.
 */
-$viewfooter='<center><b><a href="https://farmit.cymru">Farm IT</a></b><br><br><a href="javascript:window.close();">close window</a></center>';
+$viewfooter='<center><b><a href="https://farmit.cymru">Farm IT</a></b><br /><br /><a href="javascript:window.close();">close window</a></center>';
 
 
 /* Print header

@@ -5,7 +5,7 @@
 		else $numbercards = card_number();
 	   ?>
 	   <table width =300 cellspacing=5>
-	   <tr><td colspan=15 align=left><a href="print.php" target=_blank>Show All Cards</a> (for printing)<br><br></td></tr>
+	   <tr><td colspan=15 align=left><a href="print.php" target=_blank>Show All Cards</a> (for printing)<br /><br /></td></tr>
 	   <tr>
 	   <?php
 		

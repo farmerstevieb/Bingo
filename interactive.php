@@ -29,14 +29,14 @@ include_once("include/functions.php");
 		
 		?>
 		<center><b><font size=+2><p>Customized the winning pattern by clicking on the appropriate squares:</p></font></b></center>
-		<br><center>
+		<br /><center>
 		
 		<?php 
 		//the display_interactive_card() function also returns a string composed of all the
 		// checked cell in the first card (0) of the previewpatterns set.
 		//this string is entered in the hidden field
 		$hiddenfield = display_interactive_card($_GET["cardnumber"]-1); ?>
-		<br>
+		<br />
 		<form name="mainform" action="interactive.php?cardnumber=<?php echo $_GET["cardnumber"]; ?>" method="post">
 		<p align="center">
 		<input type="hidden" name="hiddenfield" value="<?php echo $hiddenfield; ?>">

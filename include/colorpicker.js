@@ -58,7 +58,7 @@
         elemDiv.style.border = '#000000 1px solid';
         elemDiv.style.background = '#FFFFFF';
         elemDiv.innerHTML = '<span style="font-family:Verdana; font-size:11px;">Pick a color: ' 
-          	+ '(<a href="javascript:setColor(\'\');">No color</a>)<br>' 
+          	+ '(<a href="javascript:setColor(\'\');">No color</a>)<br />' 
         	+ getColorTable() 
         	+ '<center><a href="http://www.flooble.com/scripts/colorpicker.php"'
         	+ ' target="_blank">color picker by <b>flooble</b></a></center></span>';

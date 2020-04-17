@@ -137,7 +137,7 @@ function display_card ($cardnumber,$fourperpage=false,$name_on=false,$rules="") 
 					case 0:
 					case 2: echo '</td>';
 							break;
-					case 1: echo '<br><br></td></tr>';
+					case 1: echo '<br /><br /></td></tr>';
 							break;
 					case 3: echo '</td></tr></table>';
 							break;
@@ -242,7 +242,7 @@ function submit_number($number,$numberinplay) {
 
 		mark_cards(array_search(strtoupper(substr($number,0,1)),$bingoletters),$convert);
 		check_bingo($numberinplay);
-	} else echo '<font color="#ff3300"><b>This number has already been entered, please verify and enter a new number</b><br><hr></font>';
+	} else echo '<font color="#ff3300"><b>This number has already been entered, please verify and enter a new number</b><br /><hr></font>';
 }
 
 
@@ -456,7 +456,7 @@ function winners_table() {
 		if ($winningpatternarray[$patterncountdown]!="on") continue; // if pattern not selected, continue to the next one
 
 		//write the title of the winning pattern
-		echo '<td nowrap valign="top" align=center><font size="1"><b>'.$patternkeywords[$patterncountdown].'</b></font><br>';
+		echo '<td nowrap valign="top" align=center><font size="1"><b>'.$patternkeywords[$patterncountdown].'</b></font><br />';
 
             //Place graphic to match winning pattern
             switch ($patternkeywords[$patterncountdown]) {

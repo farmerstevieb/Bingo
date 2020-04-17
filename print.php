@@ -9,10 +9,10 @@
 	   $numcards = card_number();
 	   
 	   for ($i=0; $i<$numcards; $i++) {
-	   	echo $printheader."<br>";
+	   	echo $printheader."<br />";
 						//transforms the $fourperpage string into a boolean
 	   	display_card($i,($fourperpage=='on'),$namefile,$printrules);
-	   	echo "<br>".$printfooter;
+	   	echo "<br />".$printfooter;
 	   	if ($fourperpage=='on') $i+=3; //step through
    				
 		//if not last card (when $i+3 = $numcards-1) then print page break instructions.
