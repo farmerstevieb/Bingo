@@ -12,4 +12,21 @@
 <file name="print.php" server="206.189.114.233//var/www/html/Bingo/" local="132302117369646779" remote="132302118770000000" Dst="2" />
 <file name="view.php" server="206.189.114.233//var/www/html/Bingo/" local="132310025833792873" remote="132310025840000000" Dst="2" />
 <file name="test.php" server="206.189.114.233//var/www/html/Bingo/" local="132310006741141549" remote="132310006740000000" Dst="2" />
+<file name=".gitattributes" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315942239497837" remote="132319410000000000" Dst="2" />
+<file name="choose.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951489775759" remote="132319410000000000" Dst="2" />
+<file name="configure.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951489227232" remote="132319410000000000" Dst="2" />
+<file name="footer.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951488688679" remote="132319410000000000" Dst="2" />
+<file name="generate.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951488180039" remote="132319410000000000" Dst="2" />
+<file name="LICENSE" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315942239478025" remote="132319410000000000" Dst="2" />
+<file name="print.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951241050680" remote="132319410000000000" Dst="2" />
+<file name="README.md" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315975118622516" remote="132319410000000000" Dst="2" />
+<file name="test.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132310006741141549" remote="132319410000000000" Dst="2" />
+<file name="interactive.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315967860548921" remote="132319410000000000" Dst="2" />
+<file name="play.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315976526978913" remote="132319410000000000" Dst="2" />
+<file name="view.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315982561486551" remote="132319410000000000" Dst="2" />
+<file name="menu.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951487152773" remote="132319410000000000" Dst="2" />
+<file name="index.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315951226609293" remote="132319410000000000" Dst="2" />
+<file name="header.php" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132315967007855017" remote="132319410600000000" Dst="2" />
+<file name=".ftpquota" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132319402800000000" remote="132319402800000000" Dst="2" />
+<file name=".htaccess" server="absinthe.ifarmit.co.uk/public_html/bingo/" local="132319395600000000" remote="132319395600000000" Dst="2" />
 </dwsync>
